@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#btr {
+  background-color: #4cc9f0;
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+  margin-top: 69px;
+  margin-bottom: 50px;
+  margin-left: 40%;
+  margin-right: 33%;
+}
+
+#btr {
+  position: relative;
+  align-items: center;
+}
+
+#btr:hover {
+  background-color: transparent;
+  text-indent: "Click Me"
+    border: 2px solid #4cc9f0;
+  -webkit-box-shadow: 10px 10px 99px 10px rgba(76, 201, 240, 1);
+  -moz-box-shadow: 10px 10px 99px 10px rgba(76, 201, 240, 1);
+  box-shadow: 10px 10px 99px 10px rgba(76, 201, 240, 1);
+  cursor: pointer;
+  color: white;
+}
+
+.image {
+  margin: 24% 33%;
+  width: 38%;
+  margin-bottom: 114px;
+}
+#images h2{
+  color: #4cc9f0;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin: 24% 33%;
+  width: 38%;
+  padding-bottom: 30px;
+  margin-bottom: 120px;
+}
+
+#bottom {
+  background-color: white;
+}
